@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # STEP CMF Render Studio
 
 ## English Overview
@@ -60,3 +64,30 @@ npm run build
 ```bash
 npm run db:generate
 ```
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+浏览器端 STEP/STP 产品渲染工作台，可检查几何、调整色彩材质与表面效果、设置灯光和视角，并导出 PNG 或批量 ZIP。使用 OpenCascade Worker 解析模型，由 Three.js 提供交互渲染。
+
+**使用入口：** 需要 Node.js 22.13 或更新版本，运行 `npm install`、`npm run dev`；生产构建使用 `npm run build`。
+
+**范围说明：** 核心渲染流程不依赖数据库；渲染图用于评审和展示，不能替代实际材料、制造或装配验证。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A browser-based STEP/STP rendering workspace for inspecting geometry, adjusting color, material and finish, setting lights and viewpoints, and exporting PNG images or ZIP batches. OpenCascade in a Worker parses models, while Three.js renders them interactively.
+
+**Getting started:** Use Node.js 22.13 or newer, run `npm install` and `npm run dev`, and build with `npm run build`.
+
+**Scope:** The core rendering workflow does not require a database. Images support review and presentation, not physical material, manufacturing or assembly validation.
+
+**仓库维护者 / Repository maintainer:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
